@@ -1,0 +1,21 @@
+@import '../style-properties.scss';
+
+.main-footer {
+    background: black ;
+    color: $main-color-text;
+    padding: 0.6rem;
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    ul{
+        display:flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        align-items: center;
+        margin-bottom: 1rem;
+        li{
+            margin: 0.5rem 0;
+        }
+    }
+}

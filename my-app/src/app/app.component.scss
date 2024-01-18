@@ -1,0 +1,18 @@
+@import '../app/style-properties.scss';
+
+.app-content {
+    display: grid;
+    grid-template-areas: 
+    'main'
+    'footer';
+    grid-template-rows: calc(100vh - $footer-height) auto;
+}
+
+.app-home{
+    grid-area: main;
+    grid-row: 100rem;
+}
+
+.app-footer {
+    grid-area: footer;
+}
