@@ -1,0 +1,15 @@
+@import '../style-properties.scss';
+
+.home-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-top: calc($margin-between-header + 2rem) ;
+    h1{
+        color: $secondary-color;
+        font-size: 1.3rem;
+        border-bottom: 2px $main-color solid;
+        padding-bottom: 1rem;
+    }
+}
