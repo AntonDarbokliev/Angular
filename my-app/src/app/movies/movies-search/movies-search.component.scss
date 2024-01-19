@@ -1,0 +1,17 @@
+@import '../../style-properties.scss';
+.movies-search {
+    display:flex;
+    justify-content: center;
+    background: $secondary-color;
+    width: 100vw;
+    padding: 1rem 0;
+    .movies-search__input{
+        height: 1.8rem;
+        width: 60%;
+        border-radius: $main-border-radius;
+    }
+
+    .movies-search__select{
+        border-radius: $main-border-radius ;
+    }
+}
