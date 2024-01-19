@@ -46,5 +46,19 @@
 }
 
 .main-nav__list {
-    @include nav-style()
+    @include nav-style();
+    display:none;
+}
+
+@media (min-width: 55rem) {
+    .mobile-nav__list{
+        display:none
+    }
+
+    .main-nav__list {
+        display: flex ;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
