@@ -4,3 +4,17 @@
     margin-top: 5rem;
     // background: $secondary-color;
 }
+
+.movies-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width : $min-width-media) {
+    .movies-list{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+     }
+}

@@ -50,7 +50,7 @@
     display:none;
 }
 
-@media (min-width: 55rem) {
+@media (min-width: $min-width-media) {
     .mobile-nav__list{
         display:none
     }

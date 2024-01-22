@@ -5,7 +5,7 @@
     grid-template-areas: 
     'main'
     'footer';
-    grid-template-rows: calc(100vh - $footer-height) auto;
+    // grid-template-rows: calc(100vh - $footer-height) auto;
 }
 
 .app-home{

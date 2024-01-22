@@ -8,7 +8,7 @@ import { Injectable } from '@angular/core'
 })
 
 export class MoviesService {
-  private apiUrl = 'https://movies-catalog-web-service.onrender.com'  
+  private apiUrl = 'https://movies-catalog-web-service.onrender.com/movie'  
 
   constructor(private http: HttpClient) {}
 
