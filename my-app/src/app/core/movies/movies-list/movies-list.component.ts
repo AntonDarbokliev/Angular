@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MoviesService } from '../movies-service.service';
-import { MovieData } from '../../types/movieTypes'
+import { MovieData } from '../../../types/movieTypes'
 import { CommonModule } from '@angular/common'
 import { MoveCardComponent } from '../move-card/move-card.component';
 

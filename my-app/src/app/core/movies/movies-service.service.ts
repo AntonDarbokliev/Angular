@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http'
-import { MovieData } from '../types/movieTypes'
+import { MovieData } from '../../types/movieTypes'
 import { Injectable } from '@angular/core'
 
 
