@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { MoviesComponent } from '../movies/movies-main/movies.component'
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MoviesComponent],
+  imports: [],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

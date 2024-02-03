@@ -6,7 +6,7 @@ import { MoviesSearchComponent } from '../movies-search/movies-search.component'
 @Component({
   selector: 'app-movies',
   standalone: true,
-  imports: [MoviesListComponent, MoviesSearchComponent],
+  // imports: [MoviesSearchComponent,MoviesListComponent],
   templateUrl: './movies.component.html',
   styleUrl: './movies.component.scss'
 })

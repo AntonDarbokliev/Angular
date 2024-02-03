@@ -5,13 +5,20 @@
     grid-template-areas: 
     'main'
     'footer';
-    // grid-template-rows: calc(100vh - $footer-height) auto;
+    grid-template-rows: calc(100vh - $footer-height) auto;
+}
+
+.main {
+    grid-area: main;
+    margin-top: 15vh;
 }
 
 .app-home{
     grid-area: main;
     grid-row: 100rem;
 }
+
+
 
 .app-footer {
     grid-area: footer;

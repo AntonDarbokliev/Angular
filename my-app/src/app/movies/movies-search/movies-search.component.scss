@@ -1,9 +1,11 @@
-@import '../../../style-properties.scss';
+@import '../../style-properties.scss';
 .movies-search {
     display:flex;
+    // grid-area: main;
     justify-content: center;
     background: $secondary-color;
-    width: 100vw;
+    // width: 100vw;
+    // max-width:100%;
     padding: 1rem 0;
     .movies-search__input{
         height: 1.8rem;

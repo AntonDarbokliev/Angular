@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'movies-search',
-  standalone: true,
-  imports: [],
+  // standalone: false,
   templateUrl: './movies-search.component.html',
   styleUrl: './movies-search.component.scss'
 })
