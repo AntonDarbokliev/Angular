@@ -5,13 +5,14 @@
     grid-template-areas: 
     'main'
     'footer';
-    grid-template-rows: calc(100vh - $footer-height) auto;
+    grid-template-rows: minmax(100vh - $footer-height,auto) auto;
 }
 
 .main {
     grid-area: main;
     margin-top: 15vh;
 }
+
 
 .app-home{
     grid-area: main;
@@ -20,6 +21,6 @@
 
 
 
-.app-footer {
-    grid-area: footer;
-}
+// .app-footer {
+//     grid-area: footer;
+// }

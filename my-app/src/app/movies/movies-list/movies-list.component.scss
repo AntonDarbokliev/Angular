@@ -1,3 +1,9 @@
 .movie-list__card {
    margin: 1rem;
 }
+
+.movies-list {
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
