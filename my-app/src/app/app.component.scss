@@ -8,19 +8,12 @@
     grid-template-rows: minmax(100vh - $footer-height,auto) auto;
 }
 
-.main {
-    grid-area: main;
-    margin-top: 15vh;
-}
-
-
 .app-home{
     grid-area: main;
     grid-row: 100rem;
 }
 
-
-
-// .app-footer {
-//     grid-area: footer;
-// }
+.app-movies{
+    grid-area: main;
+    margin-top: 15vh;
+}

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MovieCardComponent } from './movie-card/movie-card.component';
 import { MoviesListComponent } from './movies-list/movies-list.component';
 import { MoviesSearchComponent } from './movies-search/movies-search.component';
+import { MoviesComponent } from './movies-main/movies.component';
 
 
 
@@ -10,15 +11,14 @@ import { MoviesSearchComponent } from './movies-search/movies-search.component';
   declarations: [
     MovieCardComponent,
     MoviesListComponent,
-    MoviesSearchComponent
+    MoviesSearchComponent,
+    MoviesComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    MovieCardComponent,
-    MoviesListComponent,
-    MoviesSearchComponent
+    MoviesComponent
   ]
 })
 export class MoviesModule { }
