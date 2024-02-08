@@ -1,9 +1,12 @@
 @import '../../style-properties.scss';
 
-// .movies-main {
-//     margin-top: 5rem;
-//     background: $secondary-color; //
-// }
+:host {
+    grid-area: main;
+    margin-top: 15vh;
+
+}
+
+
 
 // .movies-list{
 //     display: flex;
