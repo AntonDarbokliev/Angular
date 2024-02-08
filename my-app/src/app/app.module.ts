@@ -6,6 +6,8 @@ import { CoreModule } from './core/core.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { MoviesModule } from './movies/movies.module';
 import { HttpClientModule } from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
+
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     CommonModule,
     CoreModule,
     BrowserModule,
-    MoviesModule
+    MoviesModule,
+    AppRoutingModule,
   ],
   bootstrap: [AppComponent]
 })

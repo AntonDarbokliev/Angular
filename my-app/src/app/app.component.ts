@@ -7,13 +7,3 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {}
-
-import { HomeComponent } from './home/home.component';
-import { CoreModule } from './core/core.module';
-import { MoviesComponent } from './movies/movies-main/movies.component';
-import { AppRoutingModule } from './app-routing.module';
-
-    // HomeComponent,
-    // CoreModule,
-    // MoviesComponent,
-    // AppRoutingModule
