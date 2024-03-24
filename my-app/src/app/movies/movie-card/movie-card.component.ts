@@ -7,6 +7,8 @@ import { MovieData } from '../../types/movieTypes';
   styleUrl: './movie-card.component.scss'
 })
 export class MovieCardComponent {
-@Input({ required: true }) movie!: MovieData;
+  @Input({ required: true }) movie!: MovieData;
+
+  constructor() {}
 
 }

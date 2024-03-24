@@ -16,11 +16,12 @@ export class MoviesListComponent {
   constructor(private movieService : MoviesService) {}
 
   ngOnInit() {
-    console.log('test');
     
     this.movieService.getMovies().subscribe(
       (data: MovieData[]) => {
-        this.movies = data        
+        this.movies = data  
+        console.log(this.movies);
+              
       }
     )
   }

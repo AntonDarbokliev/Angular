@@ -4,6 +4,8 @@ import { MovieCardComponent } from './movie-card/movie-card.component';
 import { MoviesListComponent } from './movies-list/movies-list.component';
 import { MoviesSearchComponent } from './movies-search/movies-search.component';
 import { MoviesComponent } from './movies-main/movies.component';
+import { RouterModule } from '@angular/router';
+import { MovieDetailsComponent } from './movie-details/movie-details.component';
 
 
 
@@ -12,10 +14,12 @@ import { MoviesComponent } from './movies-main/movies.component';
     MovieCardComponent,
     MoviesListComponent,
     MoviesSearchComponent,
-    MoviesComponent
+    MoviesComponent,
+    MovieDetailsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     MoviesComponent

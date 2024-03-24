@@ -1,3 +1,3 @@
-<a href="" class="movie-card">
-    <img [src]='movie.moviePoster' alt="" class="movie-card__image">
+<a href="" class="movie-card"[routerLink]="['/movie', movie._id]" >
+        <img [src]='movie.moviePoster' alt="" class="movie-card__image">
 </a>
