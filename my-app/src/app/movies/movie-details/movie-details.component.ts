@@ -1,6 +1,8 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { MovieData } from '../../types/movieTypes';
 import { MoviesService } from '../movies-service.service';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-movie-details',
@@ -9,17 +11,22 @@ import { MoviesService } from '../movies-service.service';
   styleUrl: './movie-details.component.scss'
 })
 export class MovieDetailsComponent {
-// @Input({required: true}) movie!: MovieData
-  // private movie: MovieData
 
-  constructor(private movieService : MoviesService) {}
+  id = 0;
+  movie: MovieData = {} as MovieData;
 
-  // ngOnInit() {
+  constructor(private movieService : MoviesService,private route: ActivatedRoute) {}
+
+  ngOnInit() {
     
-  //   this.movieService.getMovies().subscribe(
-  //     (data: MovieData[]) => {
-  //       this.movie = data        
-  //     }
-  //   )
-  // }
+    this.route.params.subscribe(params => {
+       this.id = params['id'];
+    });
+
+    this.movieService.getSingleMovie(this.id).subscribe(
+      (data: MovieData) => {
+        this.movie = data        
+      }
+    )
+  }
 }

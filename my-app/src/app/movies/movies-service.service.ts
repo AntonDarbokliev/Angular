@@ -16,7 +16,7 @@ export class MoviesService {
      return this.http.get<MovieData[]>(this.apiUrl)
   }
 
-  getSingleMovie(movieId:string) {
+  getSingleMovie(movieId:number) {
     return this.http.get<MovieData>(this.apiUrl + `/${movieId}`)
 
   }

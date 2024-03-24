@@ -9,7 +9,6 @@ export const routes: Routes = [
   {path: 'about', component: AboutComponent  },
   {path: 'movie/:id', component: MovieDetailsComponent  },
   { path: '**', redirectTo: '' }
-  // {path: '',pathMatch: 'full' ,redirectTo: 'browse'  },
 ]
 
 @NgModule({
